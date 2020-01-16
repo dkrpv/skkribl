@@ -79,23 +79,30 @@ namespace testScreenShot
             Image jpg = Image.FromFile("C:/Users/danila/skkribl/testScreenShot/image.jpg");
             Bitmap img = new Bitmap(jpg);
             Bitmap nbmp = ResizeBitmap(img, 100, 100);
+            int[] pxlColors = new int[100];
 
             for (int i = 0; i < nbmp.Width; i++)
             {
                 for (int j = 0; j < nbmp.Height; j++)
                 {
                     Color pixel = nbmp.GetPixel(i, j);
+                    pxlColors[j] = pixel.ToArgb();
                 }
             }
-            for (int x = 10000; x < 24000; x+=20)
+            for (int v = 0; v < 100; v++)
             {
-                for (int y = 10000; y < 24000; y+=20)
+                if (pxlColors[v] / 2 != 0)
                 {
+                    int x = 10000 + v;
+                    int y = 10000 + v;
                     VirtualMouse.MoveTo(x, y);
                     VirtualMouse.LeftClick();
                 }
-            }
+                else
+                {
 
+                }
+            }
         }
         static void Main(string[] args)
         {
