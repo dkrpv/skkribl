@@ -5,3 +5,10 @@ C:\Users\danil\source\repos\testScreenShot\testScreenShot\bin\Debug\testScreenSh
 C:\Users\danil\source\repos\testScreenShot\testScreenShot\bin\Debug\testScreenShot.pdb
 C:\Users\danil\source\repos\testScreenShot\testScreenShot\obj\Debug\testScreenShot.exe
 C:\Users\danil\source\repos\testScreenShot\testScreenShot\obj\Debug\testScreenShot.pdb
+C:\Users\danila\skkribl\testScreenShot\bin\Debug\testScreenShot.exe.config
+C:\Users\danila\skkribl\testScreenShot\bin\Debug\testScreenShot.exe
+C:\Users\danila\skkribl\testScreenShot\bin\Debug\testScreenShot.pdb
+C:\Users\danila\skkribl\testScreenShot\obj\Debug\testScreenShot.csprojAssemblyReference.cache
+C:\Users\danila\skkribl\testScreenShot\obj\Debug\testScreenShot.csproj.CoreCompileInputs.cache
+C:\Users\danila\skkribl\testScreenShot\obj\Debug\testScreenShot.exe
+C:\Users\danila\skkribl\testScreenShot\obj\Debug\testScreenShot.pdb
